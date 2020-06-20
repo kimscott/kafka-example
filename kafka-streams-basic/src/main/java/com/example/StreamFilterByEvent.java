@@ -53,7 +53,7 @@ public class StreamFilterByEvent {
 
         final KafkaStreams streams = new KafkaStreams(topology, properties);
 
-        // start our streams application
+        // start streams application
         streams.start();
     }
 
